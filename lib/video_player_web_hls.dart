@@ -231,6 +231,15 @@ class _VideoPlayer {
     // Allows Safari iOS to play the video inline
     videoElement.setAttribute('playsinline', 'true');
 
+    videoElement.setAttribute('x5-video-player-type', 'h5');
+    videoElement.setAttribute('preload', 'auto');
+    videoElement.setAttribute('x5-video-player-fullscreen', 'true');
+    videoElement.setAttribute('x-webkit-airplay', 'allow');
+    videoElement.setAttribute('webkit-playsinline', 'true');
+    videoElement.setAttribute('playsinline', 'true');
+    videoElement.setAttribute('controls', 'controls');
+    videoElement.setAttribute('x5-video-orientation', 'portraint');
+
      // Set autoplay to false since most browsers won't autoplay a video unless it is muted
     videoElement.setAttribute('autoplay', 'false');
 
