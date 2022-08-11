@@ -230,6 +230,7 @@ class _VideoPlayer {
 
     // Allows Safari iOS to play the video inline
     videoElement.setAttribute('playsinline', 'true');
+    videoElement.setAttribute('id', 'videoPlayer');
 
     videoElement.setAttribute('x5-video-player-type', 'h5');
     videoElement.setAttribute('preload', 'auto');
