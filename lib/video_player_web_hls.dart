@@ -225,7 +225,7 @@ class _VideoPlayer {
       ..autoplay = false
       ..controls = false
       ..style.border = 'none'
-      ..style.height = '100%'
+      ..style.height = 'auto'
       ..style.zIndex = '100'
       ..style.position = 'absolute'
       ..style.top = '50%'
