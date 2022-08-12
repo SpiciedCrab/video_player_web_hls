@@ -225,7 +225,7 @@ class _VideoPlayer {
       ..autoplay = false
       ..controls = false
       ..style.border = 'none'
-      ..style.height = 'auto'
+      ..style.height = '100%'
       ..style.zIndex = '100'
       ..style.position = 'absolute'
       ..style.top = '50%'
@@ -236,7 +236,7 @@ class _VideoPlayer {
       ..style.setProperty('-ms-transform', 'translateX(-50%) translateY(-50%)')
       ..style.setProperty('-webkit-transform', 'translateX(-50%) translateY(-50%)')
       ..style.setProperty('transform', 'translateX(-50%) translateY(-50%)')
-      ..style.width = 'auto';
+      ..style.width = '100%';
 
     // Allows Safari iOS to play the video inline
     videoElement.setAttribute('playsinline', 'true');
