@@ -225,13 +225,22 @@ class _VideoPlayer {
       ..autoplay = false
       ..controls = false
       ..style.border = 'none'
-      ..style.height = '100%'
-      ..style.width = '100%';
+      ..style.height = 'auto'
+      ..style.zIndex = '100'
+      ..style.position = 'absolute'
+      ..style.top = '50%'
+      ..style.left = '50%'
+      ..style.minWidth = '100%'
+      ..style.minHeight = '100%'
+      ..style.setProperty('object-fit', 'fill')
+      ..style.setProperty('-ms-transform', 'translateX(-50%) translateY(-50%)')
+      ..style.setProperty('-webkit-transform', 'translateX(-50%) translateY(-50%)')
+      ..style.setProperty('transform', 'translateX(-50%) translateY(-50%)')
+      ..style.width = 'auto';
 
     // Allows Safari iOS to play the video inline
     videoElement.setAttribute('playsinline', 'true');
     videoElement.setAttribute('id', 'videoPlayer');
-
     videoElement.setAttribute('x5-video-player-type', 'h5');
     videoElement.setAttribute('preload', 'auto');
     videoElement.setAttribute('x5-video-player-fullscreen', 'true');
