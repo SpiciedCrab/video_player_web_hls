@@ -252,7 +252,6 @@ class _VideoPlayer {
     videoElement.setAttribute('x5-video-orientation', 'portraint');
 
      // Set autoplay to false since most browsers won't autoplay a video unless it is muted
-    videoElement.setAttribute('autoplay', 'false');
 
     // TODO(hterkelsen): Use initialization parameters once they are available
     // ignore: undefined_prefixed_name
