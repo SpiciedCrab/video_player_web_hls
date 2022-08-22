@@ -222,7 +222,7 @@ class _VideoPlayer {
   Future<void> initialize() async {
     videoElement = VideoElement()
       ..src = uri
-      ..autoplay = false
+      ..autoplay = true
       ..controls = false
       ..style.border = 'none'
       ..style.height = 'auto'
