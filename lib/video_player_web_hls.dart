@@ -244,6 +244,7 @@ class _VideoPlayer {
     videoElement.setAttribute('x5-video-player-type', 'h5');
     videoElement.setAttribute('preload', 'auto');
     videoElement.setAttribute('autoplay','true');
+    videoElement.setAttribute('muted','true');
     videoElement.setAttribute('x5-video-player-fullscreen', 'true');
     videoElement.setAttribute('x-webkit-airplay', 'allow');
     videoElement.setAttribute('webkit-playsinline', 'true');
