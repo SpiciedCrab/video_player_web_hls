@@ -243,7 +243,7 @@ class _VideoPlayer {
     videoElement.setAttribute('id', 'videoPlayer');
     // videoElement.setAttribute('x5-video-player-type', 'h5');
     videoElement.setAttribute('preload', 'meta');
-    videoElement.setAttribute('autoplay','true');
+    // videoElement.setAttribute('autoplay','true');
     videoElement.setAttribute('muted','true');
     // videoElement.setAttribute('x5-video-player-fullscreen', 'true');
     // videoElement.setAttribute('x-webkit-airplay', 'allow');
